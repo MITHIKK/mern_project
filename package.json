@@ -1,36 +1,20 @@
 {
-  "name": "job-board",
+  "name": "job_board",
   "version": "1.0.0",
-  "private": true,
-  "description": "A simple React Job Board application.",
-  "main": "src/index.js",
+  "description": "A simple Job Board application built with React. Users can sign up, log in, browse a list of jobs, view job details, and apply for jobs.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "axios": "^1.10.0",
-    "core-js-pure": "^3.43.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MITHIKK/mern_project.git"
   },
-  "devDependencies": {
-    "react-scripts": "^5.0.1"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MITHIKK/mern_project/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "homepage": "https://github.com/MITHIKK/mern_project#readme"
 }
